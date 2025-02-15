@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一周测验 | Coursera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        .course-info {
+            margin-bottom: 20px;
+        }
+        .quiz-section {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .quiz-question {
+            margin-bottom: 10px;
+        }
+        .quiz-question label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .quiz-options {
+            list-style: none;
+            padding: 0;
+        }
+        .quiz-options li {
+            margin-bottom: 5px;
+        }
+        .quiz-options input {
+            margin-right: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>第一周测验</h1>
+            <p>适用于所有人的人工智能课程 - 第 1 周</p>
+        </div>
+
+        <div class="course-info">
+            <p><strong>截止时间：</strong>February 24, 12:59 AM PST</p>
+            <p><strong>答题次数：</strong>无限量</p>
+            <p><strong>您的成绩：</strong>您尚未提交。我们会保留您的最高分数。</p>
+        </div>
+
+        <div class="quiz-section">
+            <h2>第一周测验</h2>
+            <div class="quiz-question">
+                <label for="q1">1. 这些术语中哪一个最能描述当今电子邮件垃圾邮件过滤器、语音识别和其他特定应用中使用的人工智能类型？</label>
+                <ul class="quiz-options">
+                    <li><input type="radio" id="q1" name="q1" value="AGI"> 人工通用智能（AGI）</li>
+                    <li><input type="radio" id="q1" name="q1" value="ANI" checked> 人工智能（ANI）</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q2">2. 您认为学习输入 (A) 到输出 (B) 映射的常用人工智能技术是什么？</label>
+                <ul class="quiz-options">
+                    <li><input type="radio" id="q2" name="q2" value="AI"> 人工智能</li>
+                    <li><input type="radio" id="q2" name="q2" value="Unsupervised"> 无监督学习</li>
+                    <li><input type="radio" id="q2" name="q2" value="Supervised" checked> 监督学习</li>
+                    <li><input type="radio" id="q2" name="q2" value="Reinforcement"> 强化学习</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+			<img src="week1-quiz1.png" width="750">	
+                <label for="q3">3. 您想使用监督学习来构建一个语音识别系统。上图表明，为了使神经网络（Deep Learning）达到最佳性能，您最好使用：（请选择所有适用的选项）</label>
+                <ul class="quiz-options">
+                    <li><input type="checkbox" id="q3" name="q3" value="LargeDataset" checked> 一个大型数据集（音频文件和相应的文字誊本）</li>
+                    <li><input type="checkbox" id="q3" name="q3" value="SmallDataset"> 一个小型数据集（音频文件和相应的文字誊本）</li>
+                    <li><input type="checkbox" id="q3" name="q3" value="LargeNN" checked> 大型神经网络</li>
+                    <li><input type="checkbox" id="q3" name="q3" value="SmallNN"> 小型神经网络</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q4">4. 为监督学习算法获取数据的唯一方法就是人工标注。也就是说，给定输入 A，请人工提供 B。</label>
+                <ul class="quiz-options">
+                    <li><input type="radio" id="q4" name="q4" value="True"> 正确</li>
+                    <li><input type="radio" id="q4" name="q4" value="False" checked> 错误</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q5">5. 关于数据采集，您同意哪些说法？</label>
+                <ul class="quiz-options">
+                    <li><input type="checkbox" id="q5" name="q5" value="StructuredData"> 只有结构化数据才有价值，人工智能无法处理非结构化数据。</li>
+                    <li><input type="checkbox" id="q5" name="q5" value="DataValue" checked> 某些类型的数据比其他类型的数据更有价值；与人工智能团队合作可以帮助您确定要获取哪些数据。</li>
+                    <li><input type="checkbox" id="q5" name="q5" value="DataQuantity"> 如何获取数据并不重要。数据越多越好。</li>
+                    <li><input type="checkbox" id="q5" name="q5" value="DataUseless"> 把数据交给人工智能团队是没有用的，因为他们总能自己生产出他们需要的东西。</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q6">6. 您经营着一家生产滑板车的公司。以下哪些是非结构化数据的示例？(选择所有适用的）</label>
+                <ul class="quiz-options">
+                    <li><input type="checkbox" id="q6" name="q6" value="Audio" checked> 踏板车发动机声音的音频文件</li>
+                    <li><input type="checkbox" id="q6" name="q6" value="Speed"> 每辆滑板车的最高速度</li>
+                    <li><input type="checkbox" id="q6" name="q6" value="Image" checked> 滑板车图片</li>
+                    <li><input type="checkbox" id="q6" name="q6" value="Sales"> 去年每周售出的踏板车数量</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q7">7. 假设您经营一家销售猫粮的网站。数据科学项目可能会带来哪些好结果？(请选择所有适用的选项）</label>
+                <ul class="quiz-options">
+                    <li><input type="checkbox" id="q7" name="q7" value="Marketing" checked> 洞察如何根据猫的品种更有效地推销猫粮。</li>
+                    <li><input type="checkbox" id="q7" name="q7" value="NeuralNetwork"> 近似猫大脑工作原理的神经网络。</li>
+                    <li><input type="checkbox" id="q7" name="q7" value="Dataset"> 标记为 "猫 "和 "非猫 "的大型图像数据集</li>
+                    <li><input type="checkbox" id="q7" name="q7" value="Presentation"> 幻灯片演示如何修改定价以提高销售额。</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q8">8. 根据第 4 课 "人工智能的术语 "中定义的术语，您同意以下哪些说法？(请选择所有适用的选项）</label>
+                <ul class="quiz-options">
+                    <li><input type="checkbox" id="q8" name="q8" value="MLDataScience"> "机器学习"和"数据科学"这两个术语几乎可以互换使用。</li>
+                    <li><input type="checkbox" id="q8" name="q8" value="AIDeepLearning"> AI 是深度学习的一种。(即所有 AI 算法都是深度学习算法）。</li>
+                    <li><input type="checkbox" id="q8" name="q8" value="DeepLearningNN" checked> "Deep Learning"和"Neural Network"这两个术语几乎可以互换使用。</li>
+                    <li><input type="checkbox" id="q8" name="q8" value="DeepLearningML" checked> Deep Learning 是机器学习的一种。(即所有的 Deep Learning 算法都是机器学习算法）。</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q9">9. 人工智能公司在哪些方面做得很好？</label>
+                <ul class="quiz-options">
+                    <li><input type="checkbox" id="q9" name="q9" value="DataAcquisition"> 战略性数据采集</li>
+                    <li><input type="checkbox" id="q9" name="q9" value="UnifiedDataWarehouse"> 投资统一数据仓库</li>
+                    <li><input type="checkbox" id="q9" name="q9" value="AutomationOpportunities"> 发现自动化机会</li>
+                    <li><input type="checkbox" id="q9" name="q9" value="AllOfTheAbove" checked> 以上皆是</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <label for="q10">10. 假设你想输入一张人脸图片（A），然后输出他们是否在笑（B）。由于这是一项大多数人都能在 1 秒钟内完成的任务，因此有监督学习或许可以学习这种 A 到 B 的映射。</label>
+                <ul class="quiz-options">
+                    <li><input type="radio" id="q10" name="q10" value="True" checked> 正确</li>
+                    <li><input type="radio" id="q10" name="q10" value="False"> 错误</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2025 Coursera. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
