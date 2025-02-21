@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Quiz | Coursera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .quiz {
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question h4 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options input[type="radio"],
+        .options input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz">
+        <div class="question">
+            <h4>Question 1</h4>
+            <p>Machine learning is an “iterative” process, meaning that an AI team often has to try many ideas before coming up with something that’s good enough, rather than have the first thing they try work.</p>
+            <div class="options">
+                <label><input type="radio" name="q1" checked> True</label>
+                <label><input type="radio" name="q1"> False</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 2</h4>
+            <p>Say you want to use Machine Learning to help your sales team with automatic lead sorting. I.e., Input A (a sales prospect) and output B (whether your sales team should prioritize them). The 3 steps of the workflow, in scrambled order, are:</p>
+            <p>(i) Deploy a trained model and get data back from users</p>
+            <p>(ii) Collect data with both A and B </p>
+            <p>(iii) Train a machine learning system to input A and output B</p>
+            <p>What is the correct ordering of these steps?</p>
+            <div class="options">
+                <label><input type="radio" name="q2"> (i) (ii) (iii)</label>
+                <label><input type="radio" name="q2"> (i) (iii) (ii)</label>
+                <label><input type="radio" name="q2" checked> (ii) (iii) (i)</label>
+                <label><input type="radio" name="q2"> (ii) (i) (iii)</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 3</h4>
+            <p>What are the key steps of a Data Science project?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" checked> Collect data</label>
+                <label><input type="radio" name="q3"> Analyze the data</label>
+                <label><input type="radio" name="q3"> Suggest hypothesis or actions</label>
+                <label><input type="radio" name="q3"> All of the above</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 4</h4>
+            <p>Machine learning programs can help: (select all that apply)</p>
+            <div class="options">
+                <label><input type="checkbox" name="q4" checked> Automate lead sorting in sales</label>
+                <label><input type="checkbox" name="q4" checked> Automate resume screening</label>
+                <label><input type="checkbox" name="q4" checked> Customize product recommendations</label>
+                <label><input type="checkbox" name="q4" checked> Automate visual inspection in a manufacturing line</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 5</h4>
+            <p>Unless you have a huge dataset (“Big Data”), it is generally not worth attempting machine learning or data science projects on your problem.</p>
+            <div class="options">
+                <label><input type="radio" name="q5"> True</label>
+                <label><input type="radio" name="q5" checked> False</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 6</h4>
+            <p>Say you want to build an AI system to help recruiters with automated resume screening. Which of these steps might be involved in the “technical diligence” process? (Select all that apply.)</p>
+            <div class="options">
+                <label><input type="checkbox" name="q6"> Ensuring that this is valuable for your business (e.g., estimating the project ROI)</label>
+                <label><input type="checkbox" name="q6" checked> Defining an engineering timeline</label>
+                <label><input type="checkbox" name="q6" checked> Making sure that an AI system can meet the desired performance</label>
+                <label><input type="checkbox" name="q6" checked> Making sure you can get enough data for this project</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 7</h4>
+            <p>Which of these statements about “business diligence” do you agree with?</p>
+            <div class="options">
+                <label><input type="radio" name="q7"> Business diligence applies only if you are launching new product lines or businesses.</label>
+                <label><input type="radio" name="q7"> Business diligence can typically be completed in less than a day.</label>
+                <label><input type="radio" name="q7" checked> Business diligence is the process of ensuring that the AI technology, if it is built, is valuable for your business.</label>
+                <label><input type="radio" name="q7"> Business diligence is the process of ensuring that the envisioned AI technology is feasible.</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 8</h4>
+            <p>You want to use supervised learning for automated resume screening. Which of the following statements about the training set are true? (Select all that apply.)</p>
+            <div class="options">
+                <label><input type="checkbox" name="q8" checked> It should give examples of both the input A (resume) and the desired output B (whether to move forward with a candidate).</label>
+                <label><input type="checkbox" name="q8"> The training set and test set can be the same dataset.</label>
+                <label><input type="checkbox" name="q8" checked> It will be used by the AI team to train the supervised learning algorithm.</label>
+                <label><input type="checkbox" name="q8"> It should give examples of the input A (resume) but not necessarily the desired output B (whether to move forward with a candidate).</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 9</h4>
+            <p>For your automated resume screening application, you are now providing a test set to the AI team. Which of the following statements about the test set are true? (Select all that apply.)</p>
+            <div class="options">
+                <label><input type="checkbox" name="q9"> The test set should ideally be identical to the training set.</label>
+                <label><input type="checkbox" name="q9" checked> It will be used by the AI team to evaluate the performance of the algorithm.</label>
+                <label><input type="checkbox" name="q9"> It should give examples of the input A (resume) but not necessarily the desired output B (whether to move forward with a candidate).</label>
+                <label><input type="checkbox" name="q9" checked> It should give examples of both the input A (resume) and the desired output B (whether to move forward with a candidate).</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h4>Question 10</h4>
+            <p>Which of these are reasons that it’s often unrealistic to expect an ML system to be 100% accurate?</p>
+            <div class="options">
+                <label><input type="checkbox" name="q10" > You might not have enough data</label>
+                <label><input type="checkbox" name="q10" > Data can be mislabeled</label>
+                <label><input type="checkbox" name="q10" > Data can be ambiguous</label>
+                <label><input type="checkbox" name="q10" checked> All of the above</label>  
+</div>  
+</div>  
+</body>  
+</html>
